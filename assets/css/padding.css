@@ -5,6 +5,8 @@
     background-color: #dddddd;
     display: block;
     float: left;
+    border-radius: 5%;
+    overflow: hidden;
 }
 
 .text-Block{
