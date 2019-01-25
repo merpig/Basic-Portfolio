@@ -1,0 +1,21 @@
+p{
+    padding: 0%;
+}
+
+.inputText{
+    width: 100%;
+    height: 20px;
+}
+
+.inputMessage{
+    width: 100%;
+    text-align: left;
+    height: 200px;
+    resize: vertical;
+}
+
+.inputContainer{
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 0%;
+}
