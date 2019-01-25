@@ -12,8 +12,14 @@ html {
     background-size: cover;
   }
 
-a, p {
-    padding: 8px;
+p {
+    padding: 20px;
+}
+
+a {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 h1 {
@@ -44,9 +50,10 @@ h1 {
 }
 
 .name{
+    padding: 23px;
     color: #ffffff;
-    margin-left: 0%;
-    font-size: 3em;
+    margin: 0%;
+    font-size: 2em;
     background-color: #4aaaa5;
 }
 
@@ -76,7 +83,7 @@ ul li a.link1:hover, ul li a.link1:focus{
     min-height: calc(100vh - 50px);
     border-radius: 50px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 5%;
     background-color: #ffffff;
     overflow: hidden;
