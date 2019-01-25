@@ -30,3 +30,8 @@ p{
     padding: 8px 26px;
     font-size: 16px;
 }
+
+.button:active{
+    background-color:grey;
+
+}
