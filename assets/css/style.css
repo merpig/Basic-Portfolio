@@ -4,7 +4,7 @@ body,html {
   }
 
 html { 
-    background: url(https://thewallpaper.co/wp-content/uploads/2016/10/Teal-wallpaper-HD-high-quality-hd-wallpapers-high-definition-amazing-cool-desktop-wallpapers-for-windows-tablet-download-free-3888x2592.jpg) no-repeat center center fixed; 
+    background: url("../images/background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,7 +15,15 @@ a, p {
     padding: 8px;
 }
 
+h1 {
+    color: #4aaaa5;
+}
 
+.h1Container{
+    margin: 20px;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 0%
+}
 
 .navbar {
     background-color: #ffffff;
@@ -62,12 +70,29 @@ ul li a.link1:hover, ul li a.link1:focus{
 .content {
     max-width: 960px;
     height: 800px;
+    border-radius: 50px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 5%;
     background-color: #ffffff;
     overflow: hidden;
     border: 2px solid #dddddd;
+}
+
+.footerText{
+    position: absolute;
+    bottom:0;
+    color: #ffffff;
+}
+
+footer{
+    border-top: 10px solid #4aaaa5;
+    width: 100%;
+    height: 50px;
+    float: left;
+    position: relative;
+    background-color: #666666;
+    text-align: center;
 }
 
 
