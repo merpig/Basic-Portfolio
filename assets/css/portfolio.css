@@ -7,6 +7,9 @@
     float: left;
     border-radius: 5%;
     overflow: hidden;
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+
 }
 
 .text-Block{
@@ -17,4 +20,12 @@
     height: 70px;
     text-align: center;
     margin-top: 100px;
+}
+
+.clickLink{
+    padding-top: 174px;
+    padding-bottom: 9px;
+    padding-right: 200px;
+    padding-left: 50px;
+    border-radius: 5%;
 }
