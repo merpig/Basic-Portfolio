@@ -34,6 +34,7 @@ h1 {
 }
 
 .navbar {
+    min-width: 800px;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     position: fixed;
@@ -68,14 +69,17 @@ h1 {
     display: block;
 }
 
-
-
 ul li a.link1:hover, ul li a.link1:focus{
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #6b6b6b;
     color: #ffffff;
+}
+
+#active{
+    color: black;
+    background-color: white;
 }
 
 .contentContainer{
