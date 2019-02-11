@@ -34,7 +34,7 @@ h1 {
 }
 
 .navbar {
-    min-width: 800px;
+    
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     position: fixed;
@@ -46,16 +46,31 @@ h1 {
     padding:0%;
     max-width: 960px;
     margin: auto;
+    margin-left: 30px;
     overflow: hidden;
     list-style-type: none;
 }
 
+.nameDivBg{
+    width: 50%;
+    display: inline-block;
+}
+
+.nameDiv{
+    width: 100%;
+    display: inline-block;
+}
 .name{
     padding: 23px;
     color: #ffffff;
     margin: 0%;
     font-size: 2em;
     background-color: #4aaaa5;
+}
+
+.linkDiv{
+    float: right;
+    width: 50%;
 }
 
 .lilink{
@@ -87,13 +102,18 @@ ul li a.link1:hover, ul li a.link1:focus{
     overflow: hidden;
 }
 
-.content {
-    max-width: 960px;
+.contentMargin{
+    max-width: 980px;
     min-height: calc(100vh - 50px);
-    border-radius: 50px;
     margin: auto;
-    margin-top: 150px;
-    margin-bottom: 5%;
+    margin-top: 134px;
+}
+
+.content {
+    
+    border-radius: 50px;
+    margin: 20px;
+    margin-bottom: 50px;
     background-color: #ffffff;
     overflow: hidden;
     border: 2px solid #dddddd;

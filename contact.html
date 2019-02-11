@@ -7,58 +7,73 @@
 
     contact.html contains the content for the contact section of the site.
 -->
+
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
     <!-- Link to external CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" media="screen and (max-width: 980px)" href="assets/css/980style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/css/768style.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="assets/css/640style.css">
     
 </head>
 <body>
     <div class="contentContainer">
         <div class="navbar">
             <ul class="navbarContent">
-                <li style="display:inline-block"><h1 class="name"> Sasha Peters</h1></li>
-                <li style="float:right" class="lilink"><a class="link1" id="active" href="contact.html"> Contact</a></li>
-                <li style="float:right" class="lilink"><a style="color: #cccccc" class="link">|</a></li>
-                <li style="float:right" class="lilink"><a class="link1" href="portfolio.html">Portfolio</a></li>
-                <li style="float:right" class="lilink"><a style="color: #cccccc" class="link">|</a></li>
-                <li style="float:right" class="lilink"><a class="link1" href="index.html">About</a></li>
-                <li style="float:right" class="lilink"><a href="https://www.facebook.com/sasha.peters.39" target="_blank" class="fa fa-facebook"></a></li>
-                <li style="float:right" class="lilink"><a href="https://www.linkedin.com/in/alexandr-sasha-peters-8a2489168/" target="_blank" class="fa fa-linkedin"></a></li>
-                <li style="float:right" class="lilink"><a href="https://github.com/merpig" target="_blank" class="fa fa-github"></a></li>
+
+                <div class = "nameDivBg">
+                    <div class="nameDiv">
+                        <li style="display:inline-block"><h1 class="name"> Sasha Peters</h1></li>
+                    </div>
+                </div>
+
+                <div class="linkDiv">
+                    <li style="float:right" class="lilink"><a class="link1" id="active" href="contact.html"> Contact</a></li>
+                    <li style="float:right" class="lilink"><a style="color: #cccccc" class="link">|</a></li>
+                    <li style="float:right" class="lilink"><a class="link1" href="portfolio.html">Portfolio</a></li>
+                    <li style="float:right" class="lilink"><a style="color: #cccccc" class="link">|</a></li>
+                    <li style="float:right" class="lilink"><a class="link1" href="index.html">About</a></li>
+                </div>
+
             </ul>
         </div>
 
+        <div class="contentMargin">
+            <div class="content">
 
-        <div class="content">
+                <div class="h1Container">
+                    <h1>Contact</h1>
+                </div>
 
-            <div class="h1Container">
-                <h1>Contact</h1>
-            </div>
+                <div class="inputContainer">
+                    <p>Name</p>
+                    <input class="inputText" type="text" name="fullname">
 
-            <div class="inputContainer">
-                <p>Name</p>
-                <input class="inputText" type="text" name="fullname">
+                    <p>Email</p>
+                    <input class="inputText" type="email" name="email">
 
-                <p>Email</p>
-                <input class="inputText" type="email" name="email">
+                    <p>Message</p>
+                    <textarea class="inputMessage" rows="10" columns="100"></textarea>
+                    <br>
+                    <input class="button" type="submit" value="Submit">
 
-                <p>Message</p>
-                <textarea class="inputMessage" rows="10" columns="100"></textarea>
-                <br>
-                <input class="button" type="submit" value="Submit">
-
+                </div>
             </div>
         </div>
+    
+
+        <footer>
+            <div class="footerTextBorder">
+                <a class="footerText">Copyright ©</a>
+            </div>
+        </footer>
     </div>
-    <footer>
-        <div class="footerTextBorder">
-            <a class="footerText">Copyright ©</a>
-        </div>
-    </footer>
+
 </body>
 </html>
